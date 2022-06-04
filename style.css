@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid a img{
+    width: 70%;
+    max-width: 20rem;
+}
+
+.navbar{
+    z-index: 4;
+}
+.nav-item{
+    width: 9rem;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 2rem;
+
+}
+
+.nav-link:hover{
+    background-color: gray;
+    color: white !important;
+    transition: all 1s;
+}
+
+
+
+.nav-link i{
+    padding: 0.5rem;
+    color: purple;
+}
+
+/* ******************!HEADER********************* */
+
+.header{
+    background-image: url(./images/header-bg.jpg);
+    width: 100%;
+    height: calc(100vh - 85px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.header::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1, h3{
+    z-index: 5;
+}
+
+a {
+    z-index: 4;
+    
+}
+
+a .btn:hover{
+    background-color: purple;
+    
+}
+
+/* *******************Photo*************** */
+.photo img{
+    width: 100%;
+    height: 100%;
+
+}
+
+/****************************MAİN************************/
+.text{
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.photo img{
+    max-width: 35rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ************************Hizmetler************************* */
+
+.fa-drupal{
+    color:purple
+}
