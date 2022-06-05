@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.ridvan{
+    
+}
 .container-fluid a img{
     width: 70%;
     max-width: 20rem;
@@ -96,4 +100,10 @@ a .btn:hover{
 
 .fa-drupal{
     color:purple
+}
+
+/* *********************** Custumer ********************** */
+.custumer{
+    background-color: rgba(128, 128, 128, 0.4)
+
 }
