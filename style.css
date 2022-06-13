@@ -13,7 +13,10 @@
 }
 
 .navbar{
-    z-index: 4;
+    z-index: 6;
+    position: fixed;
+    left: 0;
+    top: 0;
 }
 .nav-item{
     width: 9rem;
@@ -39,6 +42,7 @@
     color: purple;
 }
 
+
 /* ******************!HEADER********************* */
 
 .header{
@@ -48,8 +52,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    margin-top: 85px;
 }
+
 
 .header::after{
     content: "";
@@ -63,7 +68,7 @@
 }
 
 h1, h3{
-    z-index: 5;
+    z-index: 4;
 }
 
 a {
@@ -107,3 +112,96 @@ a .btn:hover{
     background-color: rgba(128, 128, 128, 0.4)
 
 }
+
+
+
+
+/* -------------------------REFERENCE---------------- */
+
+.reference-link a {
+    /* color: purple; */
+}
+.reference-link button{
+    background-color: purple;
+    width: 8rem;
+}
+.reference-link button:hover{
+    background-color: cadetblue
+}
+
+.reference-images .img-parent{
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.reference-images .img-parent img{
+    width: 100%;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    /* width: 100%; */
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .img-parent:hover .overlay {
+    height: 100%;
+  }
+  .project-text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+/* ********************************CONTACT************************************* */
+
+.contact{
+    background-color: rgba(128, 128, 128, 0.4)
+}
+.contact div i{
+    color: purple;
+}
+#message{
+    resize: none;
+}
+
+
+/* **************************************footer***************************** */
+.footer{
+    background-color: #252525;
+}
+
+.moon,.arrow{
+    background-color: lightcoral;
+    width: 3rem;
+}
+.moonArrow{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+
+
+/* .reference-link li {
+    width: 3rem;
+    background-color: aqua;
+} */
+
