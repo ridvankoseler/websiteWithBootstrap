@@ -182,21 +182,27 @@ a .btn:hover{
 
 
 /* **************************************footer***************************** */
+
+
 .footer{
     background-color: #252525;
 }
 
 .moon,.arrow{
-    background-color: lightcoral;
+    background-color: rgb(85, 10, 85);
     width: 3rem;
+    cursor: pointer;
 }
 .moonArrow{
     position: fixed;
-    bottom: 0px;
-    right: 0px;
+    bottom:0;
+    right: 0;
+    z-index: 10;
 }
-
-
+.dark-mode{
+    background-color: #333232 !important;
+    color: white !important;
+}
 
 
 

@@ -426,16 +426,24 @@
         </footer>
         <!-- ************************************* Fixed arrow ************************** -->
         <div class="moonArrow d-flex flex-column mx-2 my-2">
-        <a href=""><i class="moon fa-solid fa-moon p-2 fa-2x rounded-3 text-center"></i></a> 
+        <i class="moon fa-solid fa-moon p-2 fa-2x rounded-3 text-center " onclick="darkMode()"></i>
         <a href="#"><i class="arrow fa-solid fa-arrow-up-from-bracket p-2 fa-2x rounded-3 mt-2 text-center"></i></a> 
         </div>
 
 
     </div>
+    <script>
+  function darkMode() {
+     let element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
     <script
       src="https://kit.fontawesome.com/581c84170e.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    
+
   </body>
 </html>
