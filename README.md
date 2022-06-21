@@ -1,2 +1,2 @@
-# wibsiteWithBootstrap
-[Click Here](https://ridvankoseler.github.io/wibsiteWithBootstrap/)
+# websiteWithBootstrap
+[Click Here](https://ridvankoseler.github.io/websiteWithBootstrap/)
